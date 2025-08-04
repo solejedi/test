@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+* {scroll-behavior: smooth;}
+body {margin: 0px;}
+#menu {width:150px; height:200px; background-color: rgb(0, 0, 0);
+    position: fixed; top:340px; right:50px;
+    font-size: 1.8rem; line-height: 48px;
+    text-align: center;
+    z-index: 999;}
+a {text-decoration: none; color:rgb(255, 255, 255);}
+#wrap {width:0px; margin:auto ;}
+#intro {width:1200px; height:960px; background-color:rgb(255, 208, 0);
+    margin-left:-600px; text-align: center; font-size: 3rem; 
+    line-height: 950px;
+    position: relative;}
+#bgmovie { height:960px;
+    position: absolute; top:0px; 
+    left:50%; margin-left: -853px;
+    z-index: 10;}
+
+#info {width:1200px; height:960px; background-color: rgb(255, 98, 0);
+    margin-left:-600px; text-align: center; font-size: 3rem; 
+    line-height: 950px;}
+
+#foot {width:1200px; height:960px; background-color: rgb(255, 0, 0);
+    margin-left:-600px; text-align: center; font-size: 3rem; 
+    line-height: 950px;}
+
+#works {width:1200px; height:960px; background-color:rgb(255, 157, 0);
+        margin-left:-600px; 
+        padding-top: 50px; box-sizing: border-box;
+        position: relative;
+        z-index: 1;}    
+input {display: none;}
+.thumb {width:550px; display: block;}
+label {width:550px; height: 350px; display: block; float: left;
+    margin-left: 30px;}
+
+
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+
+<link rel="stylesheet" href="0801-2.css">
+
+</head>
+<body>
+<div id="menu">
+    <a href="#intro">Intro</a> <br>
+    <a href="#works">Works</a> <br>
+    <a href="#info">Info</a> <br>
+    <a href="#foot">Foot</a> <br>
+</div>
+<div id="wrap">
+    <div id="intro">
+        <video id="bgmovie" src="03.mp4" 
+        autoplay muted loop></video>
+    </div>
+
+    <div id="works">
+        <a href="01.html" target="_blank">
+            <label for="inputa"><img class="thumb" src=01.jpg></label>
+        </a>
+
+        <a href="02.html" target="_blank">
+        <label for="inputb"><img class="thumb" src=02.jpg></label>
+        </a>
+
+        <a href="03.html" target="_blank">
+            <label for="inputc"><img class="thumb" src=03.jpg></label>
+        </a>
+        <a href="04.html" target="_blank"> 
+            <label for="inputd"><img class="thumb" src=04.jpg></label>
+        </a>
+        
+    </div>
+
+    <div id="info">Information</div>
+    <div id="foot">Footer</div>
+</div>
+
+<script>
+    function pause() {
+    const videos = document.querySelectorAll('.video');
+    videos.forEach(video => video.pause());
+    }
+</script>
+
+
+</body>
+</html>
